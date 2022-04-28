@@ -1,8 +1,12 @@
 [package]
 name = "rust-wasm-sample"
+description = "Simple rust wasm example using wasm-pack"
 version = "0.1.0"
-authors = ["TaeyoonKwon <tabriell@gmail.com>"]
 edition = "2021"
+authors = ["TaeyoonKwon <tabriell@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/TaeyoonKwon/rust-rocket-sample"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib"]
